@@ -1,0 +1,12 @@
+<header>
+  <nav class="bg-white border-b border-slate-200">
+    <div class="max-w-5xl mx-auto px-4 flex items-center justify-between h-16">
+      <a href="index.php" class="font-bold text-lg text-slate-900">MonSite</a>
+      <ul class="flex gap-6 text-sm font-medium">
+        <li><a href="index.php" class="text-slate-700 hover:text-brand-600 focus-visible:ring-2 focus-visible:ring-brand-600 rounded {{ active_page == 'index' ? 'text-brand-600' : '' }}">Accueil</a></li>
+        <li><a href="apropos.php" class="text-slate-700 hover:text-brand-600 focus-visible:ring-2 focus-visible:ring-brand-600 rounded {{ active_page == 'apropos' ? 'text-brand-600' : '' }}">À propos</a></li>
+        <li><a href="contact.php" class="text-slate-700 hover:text-brand-600 focus-visible:ring-2 focus-visible:ring-brand-600 rounded {{ active_page == 'contact' ? 'text-brand-600' : '' }}">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>

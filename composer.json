@@ -1,0 +1,7 @@
+{
+    "name": "techlearn/php-twig-site",
+    "type": "project",
+    "require": {
+        "twig/twig": "^3.30"
+    }
+}

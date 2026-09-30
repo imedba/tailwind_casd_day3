@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>À propos — MonSite (Tailwind)</title>
+  <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body class="min-h-screen flex flex-col">
+
+{% include "partials/header.html.twig" %}
+  <main class="max-w-5xl mx-auto px-4 py-12 flex-1">
+    <h1 class="text-3xl font-bold text-slate-900 mb-4">À propos</h1>
+    <p class="text-slate-600 max-w-prose">Regarde le code source de cette page : il n'y a ni balise <code class="bg-slate-100 px-1 rounded">&lt;nav&gt;</code> ni balise <code class="bg-slate-100 px-1 rounded">&lt;footer&gt;</code> écrite en dur ici. Modifie <code class="bg-slate-100 px-1 rounded">partials/header.html</code> une seule fois et regarde : le changement apparaît instantanément sur les 3 pages.</p>
+  </main>
+
+{% include "partials/footer.html.twig" %}
+
+</body>
+</html>
